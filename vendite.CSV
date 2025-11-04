@@ -1,0 +1,5 @@
+ClienteID;Categoria;Quantità;PrezzoUnitario;DataVendita;SpesaTot
+1;Tv;1;2000;12/12/2024;2000
+2;Tv;1;250;11/11/2024;250
+3;Smartphone;2;500;04/11/2025;1000
+4;Cavo;1;3.2;06/06/2025;3.2
