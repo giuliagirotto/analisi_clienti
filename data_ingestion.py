@@ -2,11 +2,11 @@
 import pandas as pd
 import numpy as np
 
-def carica_e_pulisci_dati(percorso_csv: str) -> pd.DataFrame:
+def carica_e_pulisci_dati(vendite.csv: str) -> pd.DataFrame:
     """
     Carica il dataset da file CSV, rimuove valori mancanti e calcola la spesa totale.
     """
-    data = pd.read_csv(percorso_csv)
+    data = pd.read_csv(vendite.csv)
     data.dropna(inplace=True)
     data['SpesaTot'] = data['Quantità'] * data['PrezzoUnitario']
     return data
